@@ -2,27 +2,27 @@
 class Closient < Formula
   desc "Command-line client for the Closient API"
   homepage "https://docs.closient.com/cli"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/closient/cli/releases/download/v0.1.2/closient-0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "9098ca96b6424a10a3202887e6ea99adeaca17a523d422a874c844b1083ecab2"
+      url "https://github.com/closient/cli/releases/download/v0.1.3/closient-0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "1110b147b657eae021c61916fddaede5d4a887c5893038cf3fa4f676d63dfd67"
     end
     on_intel do
-      url "https://github.com/closient/cli/releases/download/v0.1.2/closient-0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "45f32c5ad035a8b2f4c4b95d605dd03774126bb9d0ed82bc91265486e4447511"
+      url "https://github.com/closient/cli/releases/download/v0.1.3/closient-0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "ab54ad8de72a00c3fc1d4b720171fd48176f8f84f766353f8acb84ef87054a35"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/closient/cli/releases/download/v0.1.2/closient-0.1.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9ec75ce335e5b7d034380aa55f1fe5eacf8a3fba63fc2e85b002079475d3dee5"
+      url "https://github.com/closient/cli/releases/download/v0.1.3/closient-0.1.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e081d1ff695c942a95aaa2d2cbed457ea9019fbf4080bee284e2ad26f2fa11c1"
     end
     on_intel do
-      url "https://github.com/closient/cli/releases/download/v0.1.2/closient-0.1.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c2f9bbca7e2965be4adeb5691f9847e96c30bf56a223a94104eb76cbf1335029"
+      url "https://github.com/closient/cli/releases/download/v0.1.3/closient-0.1.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6fc82a5b9d4593003238bb0f1e51870e6dfb150fc335bc258fe6adfc823550a8"
     end
   end
 
